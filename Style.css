@@ -1,0 +1,207 @@
+body{
+    background-color: silver;
+}
+.maincard{
+    background-image: url(Image/2884.jpg);
+    /* min-height: 32rem; */
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 10%;
+}
+.Logo{
+    /* margin-left: -8%;  */
+    width:7%;
+}
+#Navb{
+    margin-bottom: 20%;
+    border-bottom: 1px solid rgb(163, 163, 163);
+}
+/* .ul{
+    float:right !important;
+} */
+.Nav{
+     float: right;
+     margin-top: 2%;
+     margin-right: 2%; 
+     align-items: center;
+}
+.Nav > ul {
+    list-style: none;
+}
+ul > li{
+    display: inline;
+    padding: 30px;
+}
+li > a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+li > a:hover{
+    color: black;
+}
+.button{
+    margin-left: 8rem;
+    border-radius: 10px;
+    padding: 5px;
+}
+.Text{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Text > h2{
+    text-align: justify;
+}
+.Text > h3{
+    position: absolute;
+    left: 4%;
+}
+.te{
+    margin-top: -10%;
+    margin-bottom: 11%;
+    text-align: center;
+}
+.mcard{
+   display:inline-block;
+}
+.card{
+    overflow-y: hidden;
+    width: 30%;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 15px black;
+}
+.air{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.lgbtn{
+    padding: 5px;
+    /* position: absolute; */
+    border: none;
+    width: 30% !important;
+    margin-left: 60%;
+    /* border-radius: 10px 30px; */
+    box-shadow: 0px 5px 10px black;
+    font-weight: bold;
+    /* background-color: #2635ff; */
+    transition:  1s ease;
+    padding: 10px;
+}
+.lgbtn:hover{
+    transform: scale(1.1);
+    font-weight: bold;
+}
+.allCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.te > a {
+    text-decoration: none;
+    color: gray;
+    transition:  1s ease;
+}
+.te > a:hover{
+    color: black;
+    border-bottom: 1px solid silver;
+    transform: scale(1.1);
+}
+.pro > p > a{
+    color:gray;
+    text-decoration: none;
+}
+.pro > p > a:hover{
+    color: black;
+}
+.Soc > p > a{
+    color: gray;
+    text-decoration: none;
+}
+.Soc > p > a:hover{
+    color: black;
+} 
+.text > p {
+    color: gray;
+}
+.contact > p{
+    color: gray;
+}
+
+@media only screen and (max-width: 1024px) {
+    .lgbtn{
+     border-radius: 10px;
+        /* margin-left: 5rem; */
+    }
+    .card{
+        height: 380px;
+       }
+}
+@media only screen and (max-width: 768px) {
+    
+    .allCard{
+       display: flex;
+       flex-wrap: wrap;
+    }
+    .card{
+     width: 60%;
+     margin-bottom: 30px;
+    }
+    .lgbtn{
+        width: 15% ;
+    }
+}
+@media only screen and (max-width: 411px) {
+  
+  .allCard{
+     display: flex;
+     flex-wrap: wrap;
+  }
+  .card{
+   width: 90%;
+   margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 414px) {
+    
+    .allCard{
+       display: flex;
+       flex-wrap: wrap;
+    }
+    .card{
+     width: 90%;
+     margin-bottom: 30px;
+    }
+  }
+@media only screen and (max-width: 360px) {
+    .allCard{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+  }
+@media only screen and (max-width: 320px) {
+    
+    .allCard{
+       display: flex;
+       flex-wrap: wrap;
+    }
+    .card{
+     width: 100%;
+     margin-bottom: 30px;
+    }
+    .lgbtn{
+        width: 25%;
+    }
+  }
+  
